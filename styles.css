@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    color: #333; /* Set a dark text color */
 }
 
 nav {
@@ -9,6 +10,11 @@ nav {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+nav a {
+    color: white; /* Set a light text color for navigation links */
+    text-decoration: none; /* Remove underlines from links */
 }
 
 nav ul {
@@ -73,7 +79,8 @@ form label {
     margin-bottom: 10px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
