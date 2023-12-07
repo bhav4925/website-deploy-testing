@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333; /* Set a dark text color */
+    color: #333;
 }
 
 nav {
@@ -13,8 +13,8 @@ nav {
 }
 
 nav a {
-    color: white; /* Set a light text color for navigation links */
-    text-decoration: none; /* Remove underlines from links */
+    color: white;
+    text-decoration: none;
 }
 
 nav ul {
@@ -34,6 +34,7 @@ header {
     background-image: url('calvin-kelvin-background.jpg');
     background-size: cover;
     color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
 }
 
 #featured-products {
